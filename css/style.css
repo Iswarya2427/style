@@ -1,0 +1,113 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #eee;
+  }
+
+  .navbar{
+    background-image: linear-gradient(-90deg, #E2A8BE, #D58EBF );
+  }
+
+  .navbar .top-navbar {
+    background-image: linear-gradient(-90deg, #E2A8BE, #D58EBF );
+  }
+  
+  .navbar .fa-bars {
+    color: #fff !important;
+    font-size: 26px;
+  }
+  
+  
+  .sidebar {
+    min-height: 780px;
+    background-image:  url(../img/bg2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+  
+  .bottom-border {
+    border-bottom: 1px solid #444;
+  }
+
+  .bottom-border .name {
+      text-decoration: none;
+  }
+  
+  .sidebar .active {
+    background-color: #F9D326;
+    border-radius: 7px;
+    box-shadow: 2px 5px 20px #111;
+    transition: all .3s ease;
+  }
+  
+  .sidebar .active:hover {
+    background-color: #F9D326;
+    transform: translateY(-5px);
+  }
+  
+  .sidebar-link {
+    transition: all .3s ease;
+  }
+  
+  .sidebar-link:hover {
+    background-color: #e2a8be;
+    border-radius: 7px;
+  }
+  
+  
+  .search {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #999;
+    transition: all .4s ease;
+  }
+  
+  .search:focus {
+    background: transparent;
+    box-shadow: none;
+    border-bottom: 2px solid #dc3545;
+  }
+  
+  .search-btn {
+    border-radius: 50%;
+    padding: 10px 16px;
+    transition: all .4s ease;
+  }
+  
+  .search-btn:hover {
+    background-color: #eee;
+    transform: translateY(-1px);
+  }
+  
+  .icon-notify {
+    position: relative;
+  }
+  
+  .icon-notify-link::after {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 15px;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #f44336;
+
+
+  
+   .text-right{
+    text-align: right !important;
+  }
+
+  
+  h2 {
+    text-align: center;
+    margin: 50px 0 !important;
+  }
+
+    img .image-resize{
+     height: 300px !important;
+     width: auto !important;
+     }
+
